@@ -7,7 +7,9 @@ It is defined by collect of code. Nobody can control SC (in runtime), user can i
 
 
 Ref: https://ethereum.org/en/developers/docs/smart-contracts/
+
 https://ethereum.org/en/smart-contracts/
+
 How to Defi (page 21).
 
 
@@ -24,6 +26,7 @@ Transaction life cycle: https://ethereum.org/en/developers/docs/transactions/#tr
 Question: How many blocks in a specific transaction?
 
 Example: https://etherscan.io/txs
+
 Ref: https://ethereum.org/en/developers/docs/transactions/
 
 ### Protocol:
@@ -47,7 +50,7 @@ Ref: https://ethereum.org/en/developers/docs/gas/#what-is-gas
 ### Fee:
 The reward for validator when they validate a transaction. 
 
-From the gas example: the fee for validator is 0.000042 ETH (21,000 * 2 * 10^-9).
+* From the gas example: the fee for validator is 0.000042 ETH (21,000 * 2 * 10^-9).
 
 ### Token:
 
@@ -61,10 +64,18 @@ There are two type of stablecoins. Centralize and decentralize stablecoins.
 ### Dapps:
 
 ### On-chain:
+On-chain transaction: Transactions run directly on the blockchain.
 
 Ref: https://coinmarketcap.com/alexandria/glossary/on-chain
 
+https://www.coindesk.com/learn/on-chain-vs-off-chain-transactions-whats-the-difference/
+
+https://www.youtube.com/watch?v=QmIK6UjxoVc
 ### Off-chain:
+Off-chain transaction: Transactions run outside of the blockchain. It can be confirmed in two ways:
+1. The transaction can be done through a separate transfer agreed upon by both parties with a third party acting as a guarantor helping validate and verify the terms of the agreement.
+2. The transaction can occur through (layer 2)[https://www.ledger.com/academy/layer-2-blockchains-explained] which is a separate blockchain built on top of the existing main one. Once all the terms and conditions of the transaction have been met and both parties have completed their transactions => the transaction is executed and recorded on the blockchain  
+
 
 ### Oracle: 
 
