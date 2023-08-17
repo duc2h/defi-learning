@@ -76,6 +76,18 @@ Off-chain transaction: Transactions run outside of the blockchain. It can be con
 1. The transaction can be done through a separate transfer agreed upon by both parties with a third party acting as a guarantor helping validate and verify the terms of the agreement.
 2. The transaction can occur through (layer 2)[https://www.ledger.com/academy/layer-2-blockchains-explained] which is a separate blockchain built on top of the existing main one. Once all the terms and conditions of the transaction have been met and both parties have completed their transactions => the transaction is executed and recorded on the blockchain  
 
+### Signature:
+
+Ref: https://www.coinbase.com/cloud/discover/dev-foundations/digital-signatures
+https://goethereumbook.org/signatures/
+
+### EIP-712 typed data:
+
+Ref: https://eips.ethereum.org/EIPS/eip-712
+
+### Contract account:
+
+Ref: https://ethereum.org/en/developers/docs/accounts/#contract-accounts
 
 ### Oracle: 
 
