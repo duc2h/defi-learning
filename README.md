@@ -84,6 +84,17 @@ https://goethereumbook.org/signatures/
 ### EIP-712 typed data:
 
 Ref: https://eips.ethereum.org/EIPS/eip-712
+https://blog.hook.xyz/validate-eip-712/
+
+### ABI
+
+Ref: https://docs.soliditylang.org/en/v0.8.13/abi-spec.html
+https://blog.chain.link/what-are-abi-and-bytecode-in-solidity/
+https://github.com/crytic/evm-opcodes
+
+### ECDSA:
+
+### ERC20:
 
 ### Contract account:
 
