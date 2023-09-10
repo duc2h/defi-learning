@@ -80,11 +80,15 @@ Off-chain transaction: Transactions run outside of the blockchain. It can be con
 
 Ref: https://www.coinbase.com/cloud/discover/dev-foundations/digital-signatures
 https://goethereumbook.org/signatures/
+Create a signature:
+ https://app.mycrypto.com/sign-message
 
 ### EIP-712 typed data:
 
 Ref: https://eips.ethereum.org/EIPS/eip-712
 https://blog.hook.xyz/validate-eip-712/
+https://medium.com/mycrypto/the-magic-of-digital-signatures-on-ethereum-98fe184dc9c7
+https://medium.com/metamask/eip712-is-coming-what-to-expect-and-how-to-use-it-bb92fd1a7a26
 
 ### ABI
 As Ethereum uses EVM(Ethereum Virtual Machine) as a core component of the network, smart contract code written in high-level languages needs to be compiled into EVM bytecode to be run. EMV Bytecode is an executable code on EVM and Contract ABI is an interface to interact with EVM bytecode. For example, if you want to call a function in a smart contract with your JavaScript code, ABI plays a role as an intermediary between your JavaScript code and EVM bytecode to interact with each other. Below diagram shows the architecture of Contract ABI, EVM bytecode and outside components(dApp and network). The left side is a process of compiling and the right side is interacting.
@@ -95,6 +99,9 @@ https://github.com/crytic/evm-opcodes
 https://medium.com/@eiki1212/explaining-ethereum-contract-abi-evm-bytecode-6afa6e917c3b
 
 ### ECDSA:
+
+### Keccak256:
+
 
 ### ERC20:
 
@@ -116,3 +123,6 @@ Ref: https://ethereum.org/en/developers/docs/accounts/#contract-accounts
 
 ### Impermanent loss:
 
+### Solidity: 
+
+Ref: https://docs.soliditylang.org/en/v0.4.24/contracts.html#events
