@@ -105,9 +105,12 @@ https://medium.com/@eiki1212/explaining-ethereum-contract-abi-evm-bytecode-6afa6
 
 ### ERC20:
 
+Ref: https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/IERC20.sol#L4
+
 ### Contract account:
 
-Ref: https://ethereum.org/en/developers/docs/accounts/#contract-accounts
+Ref: https://ethereum.org/en/developers/docs/standards/tokens/erc-20/
+https://ethereum.org/en/developers/docs/accounts/#contract-accounts
 
 ### Oracle: 
 
@@ -120,9 +123,21 @@ Ref: https://ethereum.org/en/developers/docs/accounts/#contract-accounts
 
 ### DEX
 
+Uniswapv2: https://ethereum.org/en/developers/tutorials/uniswap-v2-annotated-code/
 
 ### Impermanent loss:
 
 ### Solidity: 
 
 Ref: https://docs.soliditylang.org/en/v0.4.24/contracts.html#events
+
+### Reorg:
+A blockchain reorg is caused when two blocks are published at the same time. Short one- and two-block reorgs happen often because of network latency, but when reorgs extend for longer than one or two blocks, they can lead to malicious attacks or even network failure.
+
+Ref: https://cointelegraph.com/explained/what-is-chain-reorganization-in-blockchain-technology
+https://www.alchemy.com/overviews/what-is-a-reorg
+
+
+### Sybil attack:
+
+A Sybil attack in this case is a person or organization that creates hundreds or thousands of wallets and airdrops to make big profits. The purpose of this is to create a link between the wallets, thereby fooling the anti-Sybil system that all the wallets belong to an individual or organization. 
